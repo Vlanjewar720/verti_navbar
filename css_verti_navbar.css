@@ -1,0 +1,356 @@
+
+
+    
+.header{
+
+    background-color:  rgb(237, 188, 63);
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    display: inline-flex;
+
+   }
+   .header > h1{
+    font-size: 35px;
+    margin-left: 300px;
+    color: white;
+   }
+
+   .menu{
+    background-color: rgb(54, 229, 132);
+    border: 1px solid lightblue;
+    width: 15%;
+    height: 2100px;
+    position: fixed;
+    margin-top: 115px;
+    
+   }
+
+/* conatainer main  */
+.container
+{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-rows:  150px 400px 110px 300px ;
+
+    background-color: lightblue;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    height: auto;
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    
+}
+.item{
+    /* border: 1px solid; */
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px 5px lightblue; */
+    border: none;
+  
+   
+}
+
+.item-11{
+   
+    grid-row: 1 ;
+    grid-column: 1 / span 4;
+    background-image: url(/verti_nv_img/bookhead2.jpg);
+    background-position: center;
+    background-size: 100% 250px;
+
+}
+
+.item-12{
+   
+    background-image: url(/verti_nv_img/rechdadbook.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-position-x: -45px; */
+
+}
+
+.item-13
+{
+    grid-row: 2 ;
+    grid-column: 2 / span 3;
+    background-image: url(/verti_nv_img/The-Alchemist-book-cover.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+.item-13 button {
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 15%;
+    background-color: rgb(194, 157, 108);
+    box-shadow: 0px 0px 1px 1px ;
+
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.item-13 h2 ,p{
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+
+}
+.item-14{
+   
+    grid-row: 3 ;
+    grid-column: 1 / span 4;
+    /* background-color: rgb(252, 163, 99); */
+    background-image: url(/verti_nv_img/verhead2.png);
+    background-position: center;
+
+}
+.item-14 ,h2,p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.item-15{
+/*    
+    grid-row: 4;
+    grid-column: 1 / span 2; */
+    background-image: url(/verti_nv_img/rechdadbook.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-16{
+   
+    /* grid-row: 4;
+    grid-column: 3 / span 2; */
+    background-image: url(/verti_nv_img/The-Alchemist-book-cover.webp);
+    background-position: center;
+    background-size: cover;
+    background-position-y: -100px;
+
+}
+.item-22{
+    background-image: url(/verti_nv_img/The_powerOf_sub.jpg);
+    background-position: center;
+    background-size: 270px 300px;
+
+}
+.item-23{
+    background-image: url(/verti_nv_img/wings-of-fire-original.webp);
+    background-position: center;
+    background-size: cover;
+}
+.item-24{
+    grid-row: 5;
+    grid-column: 1 / span 4;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(65, 235, 164);
+    color: rgb(244, 240, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/verti_nv_img/head_book.png);
+}
+
+.item-17{
+   
+    grid-row: 6;
+    grid-column: 1 / span 2;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(211, 158, 199);
+    color: rgb(2, 161, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item-18{
+   
+    grid-row: 6;
+    grid-column: 3 / span 2;
+    background-image: url(/verti_nv_img/booklib.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.item-25{
+    grid-row: 7;
+    grid-column: 1 / span 4;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(65, 235, 164);
+    color: rgb(244, 240, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/verti_nv_img/contact_images.jpg);
+    background-position: center;
+    background-size: 100% 200px;
+    
+}
+    
+.item-19{
+   
+    grid-row: 8;
+    grid-column: 1 / span 4; 
+    background-image: url(/verti_nv_img/footerbg2.webp); 
+    background-position: center;
+    background-size: cover;
+    background-position-y: 10px;
+    
+
+    
+}
+/* .item-20{
+   
+    grid-row: 6;
+    grid-column: 3 / span 2;
+} */
+.item-21{
+   
+    grid-row: 9;
+    grid-column: 1 / span 4;
+    display: inline-flex;
+    background-image:url(/verti_nv_img/footerbg111.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.contain-1, .c-2, .c-3
+{
+    
+    justify-items: center;
+    align-content: center;
+    margin-left: 15px ;
+    font-size: 18px;
+    
+}
+.contain-2{
+    margin-top: 100px;
+    line-height: 35px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.footer{
+    margin-left: 50px;
+
+}
+.c-2 input{
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  
+}
+.c-2 button{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 7px;
+    
+}
+.fa-brands{
+   
+    /* background-color: rgb(121, 201, 55); */
+    color: blue;
+    font-size: 30px;
+}
+.fa-youtube{
+    /* background-color: tomato; */
+    font-size: 30px;
+    color: red;
+}
+.fa-brands:hover{
+    background-color: darkorange;
+}
+
+/* VER NAV  */
+ul{
+    list-style-type: none;
+    display: inline;
+    width: 250px;
+    margin-top: -50px;
+    
+}
+li a{
+    display: block;
+    color: #000;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1px;
+    
+}
+
+li a.active{
+    /* background-color: #04AA6D; */
+    background-color: rgb(223, 81, 81);
+    color: white;
+}
+li a:hover:not(.active)
+{
+background-color: #555;
+color: white;
+}
+/* header part  */
+.logo {
+    background-image: url(/verti_nv_img/Axiom-Logo.png);
+    width: 110px;
+    height: 70px;
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    left: 30px;
+
+    
+
+}
+.head {
+   display: flex;
+}
+.hicon{
+    position: relative;
+    margin-left: 60%;
+    margin-top: 16px;
+    
+}
+.hbutton {
+    box-shadow: 0px 0px 1px 1px lightblue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgb(189, 228, 49);
+    border: none;
+    
+}
+.c-2 input ,button{
+    border: none;
+
+}
+.c-2 input:hover{
+    border: 3px solid red;
+}
+i{
+    margin: 10px;
+    font-size: 30px;
+    /* box-shadow: 0px 0px 1px 1px lightblue; */
+
+}
